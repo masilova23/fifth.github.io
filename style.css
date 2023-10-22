@@ -1,0 +1,145 @@
+.head{
+    background-image: url(pic.jpg);
+    background-size: cover;
+    width: 100%;
+    margin: 0 auto;
+    height: 630px;
+  }
+  
+  .text{
+    font-size: 70px;
+    background-color:  #8e4848;
+    margin-top: 30px;
+    border: 1px solid;
+    border-radius: 100px;
+    padding: 30px;
+  }
+  
+  .selection button{
+    background-color: #e4b9b9;
+    border: #8f3a3a;
+    border-radius: 30px;
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    color: rgb(75, 64, 64);
+  }
+  
+  a {
+    text-decoration: none;
+    bottom: 1px;
+    right: 1px;
+    text-align: right;
+    color: rgb(97, 84, 84);
+    font-size: 15px;
+    line-height: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+  }
+  
+  .head_text{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: #4a4141;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 0.2em;
+    text-rendering: optimizeLegibility;
+  }
+  
+  .content{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 100%;
+  }
+  
+  .open{
+    float: right;
+    background-color: #70573d;
+    border-radius: 10px;
+    width: 200px;
+    color: rgb(86, 77, 77);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    letter-spacing: 3px;
+    border: 2px solid antiquewhite;
+  }
+  
+  .open:hover{
+    background-color: #910000;
+    color: rgb(92, 82, 82);
+  }
+  
+  
+  body{
+    background-color: #bdbcba;
+  }
+  
+  .nav a{
+    margin: 20px;
+    padding-top: 10px;
+    margin-top: 10px;
+  }
+  
+  .calculator{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 50px;
+    border: 1px solid rgb(42, 40, 38);
+    border-radius: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    color:rgb(94, 82, 82);
+    align-items: flex-start;
+  }
+  
+  .selection{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .selection input{
+    background-color: #e4b9b9;
+    color: rgb(86, 71, 71);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    border-radius: 10px;
+  }
+  
+  .selection select{
+    background-color: #e4b9b9;
+    color: rgb(75, 65, 65);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    border-radius: 10px;
+  }
+  
+  .selection option{
+    background-color: #e4b9b9;
+    color: rgb(85, 80, 73);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+  }
+  
+  .cost{
+    padding-top: 30px;
+    font-size: 30px;
+  }
+  
+  @media screen and (max-width: 480px){
+    .menu{
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .content{
+      display: flex;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      height: 100%;
+    }
+  }

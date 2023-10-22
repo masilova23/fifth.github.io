@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Calculator</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <script src="script.js" defer></script>
+  <link/>
+</head>
+
+<body>
+
+<header class="head">
+  <div class="head_text">
+  </div>
+</header>
+
+<section id ="calculator" div class="calculator">
+  <div class="selection">
+    Выберите котенка:
+    <select onchange="calc()" id="kittens">
+      <option value="7000">Шотландская вислоухая</option>
+      <option value="3000">Персидская кошка</option>
+      <option value="15000">Саванна</option>
+      <option value="3500">Сфинкс</option>
+      <option value="3000">Мейн-кун</option>
+      <option value="10000">Бенгальская кошка</option>
+    </select><br/>
+    Количество: <input type="text" id="count" value="0" onchange="calc()" />
+    <button onclick="calc()">Рассчитать стоимость</button>
+    <div id="result"></div>
+  </div>
+</section>
+</body>
+</html>
