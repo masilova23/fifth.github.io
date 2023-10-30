@@ -28,7 +28,7 @@
       <option value="3000">Мейн-кун</option>
       <option value="10000">Бенгальская кошка</option>
     </select><br/>
-    Количество: <input type="text" id="count" value="0" onchange="calc()" />
+    Количество: <input type="text" id="count" value="0" onchange="calc()" onkeypress="return isNumberKey(event)"/>
     <button onclick="calc()">Рассчитать стоимость</button>
     <div id="result"></div>
   </div>
