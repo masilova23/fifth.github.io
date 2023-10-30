@@ -1,3 +1,12 @@
+function isNumberKey(evt)
+{
+    var charCode = (evt.which) ? evt.which : event.keyCode;
+    if(charCode > 31 && (charCode < 48 || charCode > 57)){
+        alert("Вы должны использовать цифры.");
+        return false;
+    }
+    return true;
+}
 function calc() {
     var kittens = document.getElementById("kittens");
     var count = document.getElementById("count").value;
